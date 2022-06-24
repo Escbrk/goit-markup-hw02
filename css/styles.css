@@ -85,12 +85,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #2f303a;
   padding: 200px 452px;
+  background-image: url(/web-studio/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .hero-title {
-  /* font-weight: 900; */
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
@@ -98,6 +100,8 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   width: 650px;
+  margin: 0 0 30px 0;
+  display: flex;
 }
 
 .hero-btn {
@@ -115,6 +119,7 @@ body {
   padding: 10px 32px;
   cursor: pointer;
   border: none;
+  margin-bottom: 200px;
 }
 
 .features {
@@ -494,4 +499,8 @@ ul {
 
 .servis {
   color: #2196f3;
+}
+
+.hero-img {
+  position: absolute;
 }
