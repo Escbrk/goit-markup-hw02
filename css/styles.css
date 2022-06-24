@@ -86,7 +86,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 200px 452px;
-  background-image: url(/web-studio/img/hero.jpg);
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
