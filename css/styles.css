@@ -151,14 +151,12 @@ body {
 
 .features-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1214px;
+  margin: auto;
+  width: 1170px;
 }
 
 .feature-item {
-  align-items: center;
-  text-align: left;
+  margin-right: 30px;
 }
 
 .feature-title {
@@ -178,7 +176,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 94px;
-  width: 340px;
+  width: 270px;
 }
 
 .about-title {
@@ -204,9 +202,9 @@ body {
 .about-foto-all {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 1170px;
+  justify-content: center;
 }
 
 .team {
@@ -225,11 +223,11 @@ body {
 
 .team-person {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1212px;
+  margin: 50px auto;
+  width: 1170px;
   display: flex;
-  margin-top: 50px;
+  margin: auto;
+  justify-content: center;
 }
 
 .person-title {
