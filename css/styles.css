@@ -85,7 +85,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 452px;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -99,9 +98,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: 650px;
+  width: 696px;
   margin: 0 0 30px 0;
   display: flex;
+  padding-top: 200px;
 }
 
 .hero-btn {
@@ -119,22 +119,14 @@ body {
   padding: 10px 32px;
   cursor: pointer;
   border: none;
-  margin-bottom: 200px;
+  margin-bottom: 140px;
 }
 
 .features {
   background-color: #fff;
+  padding-top: 94px;
 }
 
-.about-features-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
 
 .visually-hidden {
   position: absolute;
@@ -151,14 +143,10 @@ body {
 
 .features-list {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   width: 1170px;
+  justify-content: space-between;
 }
-
-.feature-item {
-  margin-right: 30px;
-}
-
 
 .feature-title {
   font-weight: 700;
@@ -176,10 +164,11 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 94px;
   width: 270px;
 }
 
+.clients-title,
+.about-features-title,
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -188,8 +177,10 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+  padding-top: 94px
 }
 
+.clients-list,
 .team,
 .about-us {
   padding-bottom: 94px;
@@ -499,4 +490,34 @@ ul {
 
 .hero-img {
   position: absolute;
+}
+
+.feature-item > div {
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.div-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-link :hover {
+  color: #2196f3;
+  transform: scale(1.1);
 }
