@@ -85,7 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/hero.jpg");
+  background-image: url('../img/hero.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -126,7 +126,6 @@ body {
   background-color: #fff;
   padding-top: 94px;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -177,7 +176,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
-  padding-top: 94px
+  padding-top: 94px;
 }
 
 .clients-list,
@@ -305,7 +304,6 @@ ul {
 .contacts-footer :hover {
   color: #2196f3;
 }
-
 
 .about-person {
   background: #ffffff;
@@ -488,11 +486,10 @@ ul {
   color: #2196f3;
 }
 
-
 .feature-item > div {
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   display: flex;
@@ -507,18 +504,30 @@ ul {
   margin: 0 auto;
 }
 
-.div-link {
+.clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.div-link :hover {
+.clients-item :hover {
   color: #2196f3;
-  background-color: #2196f3;
-  background: #2196f3;
+}
+
+.personal-social-pages > li {
+  padding-bottom: 30px;
+}
+.personal-social-pages {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 32px;
+}
+
+.personal-social-pages :hover {
+  color: #2196f3;
 }
