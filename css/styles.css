@@ -514,8 +514,12 @@ ul {
   align-items: center;
 }
 
-.clients-item :hover {
-  color: #2196f3;
+.clients-item:hover {
+  border: 1px solid #2196f3
+}
+
+.clients-item:hover > a > svg path {
+  fill: #2196f3;
 }
 
 .personal-social-pages > li {
@@ -526,8 +530,4 @@ ul {
   justify-content: space-around;
   padding: 0;
   margin: 0 32px;
-}
-
-.personal-social-pages :hover {
-  color: #2196f3;
 }
