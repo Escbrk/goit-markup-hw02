@@ -166,6 +166,7 @@ body {
   width: 270px;
 }
 
+.map-title,
 .clients-title,
 .about-features-title,
 .about-title {
@@ -530,4 +531,26 @@ ul {
   justify-content: space-around;
   padding: 0;
   margin: 0 32px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+}
+.map > iframe {
+  border: #2196f3;
+}
+.map-title > span {
+  color: #2196f3;
+}
+.map > div {
+  border: 5px #2196f3;
+  padding: 10px;
+  box-shadow: 10px 10px 30px #2196f3, 10px 10px 30px #2196f3, 10px 10px 30px #2196f3;
+  border-radius: 4px;
 }
