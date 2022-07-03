@@ -1,9 +1,17 @@
+:root {
+--logo-color: #2196f3;
+--text-color: #757575;
+--main-text-color: #212121;
+--hero-text-color: #fff;
+--bcg-color: #f5f4fa;
+}
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  color: #fff;
   height: 100%;
+  background-color: var(--hero-text-color);
 }
 
 .top {
@@ -29,7 +37,6 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   margin-top: 24px;
-  color: black;
   margin-right: 94px;
 }
 
@@ -39,8 +46,9 @@ body {
   display: flex;
 }
 
+.contact-link:hover,
 .logo-color {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .navigation {
@@ -59,7 +67,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .contacts-list {
@@ -70,8 +77,8 @@ body {
 
 .active,
 .active-button,
-.navigation-list :hover {
-  color: #2196f3;
+.nav-link:hover {
+  color: var(--logo-color);
 }
 
 .contact-link {
@@ -80,11 +87,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.contact-link:hover {
-  color: #2196f3;
+  color: var(--text-color);
 }
 
 .hero {
@@ -103,7 +106,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--hero-text-color);
   width: 696px;
   margin: 0 0 30px 0;
   display: flex;
@@ -118,8 +121,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--hero-text-color);
+  background: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
@@ -129,7 +132,6 @@ body {
 }
 
 .features {
-  background-color: #fff;
   padding-top: 94px;
 }
 
@@ -159,7 +161,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
   margin-top: 10px;
 }
 
@@ -168,7 +170,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
   width: 270px;
 }
 
@@ -206,7 +208,7 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bcg-color);
 }
 
 .team-title {
@@ -216,7 +218,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .team-person {
@@ -235,7 +237,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .person-text {
@@ -245,7 +247,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .team-person-photo {
@@ -261,7 +263,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: var(--hero-text-color);
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -280,7 +282,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #212121;
+  color: var(--main-text-color);
 }
 ul {
   list-style: none;
@@ -304,11 +306,11 @@ ul {
 }
 
 .contacts-footer :hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .about-person {
-  background: #ffffff;
+  background: var(--hero-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -335,8 +337,8 @@ ul {
 }
 
 .category-item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: var(--hero-text-color);
+  border: 1px solid #eee;
   margin-bottom: 30px;
 }
 .category-item:hover {
@@ -349,7 +351,7 @@ ul {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-text-color);
   margin-top: 20px;
   margin-left: 24px;
 }
@@ -358,7 +360,7 @@ ul {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
   margin-left: 24px;
   margin-bottom: 20px;
 }
@@ -371,25 +373,22 @@ ul {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
   margin-bottom: 50px;
   border-radius: 4px;
-  background-color: #f5f4fa;
+  background-color: var(--bcg-color);
   border: none;
   cursor: pointer;
 }
 
 .active-button,
 .nav-category-btn:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--hero-text-color);
+  background-color: var(--logo-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .active-button {
-  color: #fff;
-  background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -405,7 +404,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--hero-text-color);
   margin-bottom: 20px;
 }
 
@@ -428,7 +427,7 @@ ul {
 }
 
 .company-social-item:hover {
-  background: #2196f3;
+  background: var(--logo-color);
   transform: scale(1.1);
 }
 
@@ -441,9 +440,9 @@ ul {
 }
 .form-btn {
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--logo-color);
   border: none;
-  color: #fff;
+  color: var(--hero-text-color);
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -462,7 +461,7 @@ ul {
   border-radius: 4px;
   width: 342px;
   height: 50px;
-  color: #fff;
+  color: var(--hero-text-color);
   padding-left: 16px;
 }
 
@@ -484,14 +483,10 @@ ul {
   margin-left: 25%;
 }
 
-.servis {
-  color: #2196f3;
-}
-
 .feature-item > div {
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background: var(--bcg-color);
   border-radius: 4px;
   margin-bottom: 30px;
   display: flex;
@@ -517,11 +512,11 @@ ul {
 }
 
 .clients-item:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--logo-color);
 }
 
 .clients-item:hover > a > svg path {
-  fill: #2196f3;
+  fill: var(--logo-color);
 }
 
 .personal-social-pages > li {
@@ -544,14 +539,14 @@ ul {
   padding-bottom: 94px;
 }
 .map > iframe {
-  border: #2196f3;
+  border: var(--logo-color);
 }
 .map-title > span {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .map > div {
-  border: 5px #2196f3;
+  border: 5px var(--logo-color);
   padding: 10px;
-  box-shadow: 10px 10px 30px #2196f3, 10px 10px 30px #2196f3, 10px 10px 30px #2196f3;
+  box-shadow: 10px 10px 30px var(--logo-color), 10px 10px 30px var(--logo-color), 10px 10px 30px var(--logo-color);
   border-radius: 4px;
 }
