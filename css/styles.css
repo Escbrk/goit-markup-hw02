@@ -30,15 +30,21 @@ body {
   letter-spacing: 0.03em;
   margin-top: 24px;
   color: black;
+  margin-right: 94px;
 }
 
 .logo-style {
   font-family: 'Raleway';
   font-style: normal;
+  display: flex;
 }
 
 .logo-color {
   color: #2196f3;
+}
+
+.navigation {
+  display: flex;
 }
 
 .navigation-list {
@@ -280,10 +286,6 @@ ul {
   list-style: none;
 }
 
-.logo-style {
-  display: flex;
-}
-
 .address-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -515,7 +517,7 @@ ul {
 }
 
 .clients-item:hover {
-  border: 1px solid #2196f3
+  border: 1px solid #2196f3;
 }
 
 .clients-item:hover > a > svg path {
